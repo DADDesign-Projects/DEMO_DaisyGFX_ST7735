@@ -16,17 +16,18 @@ Les primitives graphiques sont minimalistes, elles pourront être complétées e
 ## Mise en oeuvre
 Le code est modifiable et compilable sous VS Code dans l’environnement de développement du Daisy Seed (voir le https://github.com/electro-smith).
 
-### Configuraion
+### Configuration
 1. Clonez le projet : 
 2. Le fichier Makefile est à adapter en fonction de l’emplacement des librairies : 
 ```
   LIBDAISY_DIR = ../../../Desktop/DaisyExamples/libDaisy/
   DAISYSP_DIR = ../../../Desktop/DaisyExamples/DaisySP/
 ```
-3. Le fichier c_cpp_properties.json est aussi à adapter :
+3. Le fichier .vscode/c_cpp_properties.json est aussi à adapter :
 ```
 "includePath": [
   "${workspaceFolder}/**",
   "${workspaceFolder}/../../../Desktop/DaisyExamples/libDaisy//**",
   "${workspaceFolder}/../../../Desktop/DaisyExamples/DaisySP//**"
 ```
+4. Le fichier UserConfig.h permet d’adapter la bibliothèque aux différentes implémentations matérielles.
