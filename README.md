@@ -17,8 +17,11 @@ Les primitives graphiques sont minimalistes, elles pourront être complétées e
 Le code est modifiable et compilable sous VS Code dans l’environnement de développement du Daisy Seed (voir le https://github.com/electro-smith).
 
 ### Configuration
-1. Clonez le projet : 
-2. Le fichier Makefile est à adapter en fonction de l’emplacement des librairies : 
+1. Clonez le projet :
+```
+  git clone --recurse-submodules https://github.com/DADDesign-Projects/DEMO_DaisyGFX_ST7735 VotreDossier
+```
+3. Le fichier Makefile est à adapter en fonction de l’emplacement des librairies : 
 ```
   LIBDAISY_DIR = ../../../Desktop/DaisyExamples/libDaisy/
   DAISYSP_DIR = ../../../Desktop/DaisyExamples/DaisySP/
