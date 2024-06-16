@@ -33,4 +33,4 @@ Le code est modifiable et compilable sous VS Code dans l’environnement de dév
   "${workspaceFolder}/../../../Desktop/DaisyExamples/libDaisy//**",
   "${workspaceFolder}/../../../Desktop/DaisyExamples/DaisySP//**"
 ```
-4. Le fichier UserConfig.h permet d’adapter la bibliothèque aux différentes implémentations matérielles.
+4. Le fichier UserConfig.h permet d’adapter la bibliothèque aux différentes implémantations matérielles.
