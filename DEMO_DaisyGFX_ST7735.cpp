@@ -54,6 +54,18 @@ int main(void)
 	__Display.drawR8G8B8Image(25, 15, 100, 100, Pap_map);
 	__Display.FlushFrame();
 	System::Delay(5000);
+
+	// Alpha
+	__Display.setRotation(Rotation::Degre_90);
+	Width = 159;
+	Height = 127;
+	__Display.drawFillRect(0,0,Width,Height,cColor(255,255,255));
+	__Display.drawFillCircle(50,65,40,cColor(255, 0, 0, 120));
+	__Display.drawFillCircle(80,65,40,cColor(0, 255, 0, 120));
+	__Display.drawFillCircle(110,65,40,cColor(0, 0, 255, 120));
+	__Display.FlushFrame();
+	System::Delay(5000);
+	
 	
 	// Rot 0
 	__Display.setRotation(Rotation::Degre_0);
